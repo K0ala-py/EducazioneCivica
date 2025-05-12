@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Serra Intelligente</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #e3e5dc;
+      color: #2d3e30;
+    }
+
+    header {
+      background: linear-gradient(to right, #6a8662, #4f6b48);
+      padding: 20px;
+      color: #ffffff;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #4f6b48;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    nav li {
+      position: relative;
+    }
+
+    nav a {
+      display: block;
+      padding: 14px 20px;
+      color: #ffffff;
+      text-decoration: none;
+    }
+
+    nav li:hover {
+      background-color: #6a8662;
+    }
+
+    nav li ul {
+      display: none;
+      position: absolute;
+      background-color: #4f6b48;
+      min-width: 180px;
+      z-index: 1;
+      top: 100%;
+      left: 0;
+    }
+
+    nav li:hover > ul {
+      display: block;
+    }
+
+    .section {
+      padding: 40px 20px;
+    }
+
+    .strip-light {
+      background-color: #f0f3ea;
+    }
+
+    .strip-dark {
+      background-color: #c2cbb9;
+    }
+
+    .content {
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #2e4e3f;
+    }
+
+    .image-placeholder {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .image-placeholder img {
+      width: 100%;
+      max-width: 600px;
+      border-radius: 8px;
+    }
+
+    footer {
+      background-color: #4f6b48;
+      color: #ffffff;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Serra Intelligente con Arduino</h1>
+    <p>Monitoraggio ambientale automatizzato e sostenibile</p>
+  </header>
+
+  <nav style="padding-left: 100px;">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li>
+        <a href="#">Sezioni ▼</a>
+        <ul>
+          <li><a href="tipologie.html">Tipologie di impianti</a></li>
+          <li><a href="vantaggi.html">Vantaggi del Fotovoltaico</a></li>
+          <li><a href="futuro.html">Sviluppi Futuri</a></li>
+          <li><a href="serra.html">Serra</a></li>
+        </ul>
+  </nav>
+
+  <!-- Primo div -->
+  <div class="section strip-light">
+    <div class="content">
+      <h2>Cos'è una Serra Intelligente?</h2>
+      <p>
+        Una serra intelligente è un ambiente agricolo controllato tramite sensori. Utilizzando Arduino e tecnologie IoT, è possibile monitorare temperatura, umidità, illuminazione e irrigazione, oltre
+        a luminosità ed impianto d'illuminazione, a cui si aggiungono anche, nel caso della serra realizzata qui al Giorgi, le informazioni provenienti dall'elettrovalvola (umidità e irrigazione delle tre zone).
+
+      </p>
+    </div>
+  </div>
+
+  <!-- Secondo div -->
+  <div class="section strip-dark">
+    <div class="content">
+      <h2>Sensori e Automazioni</h2>
+      <p>
+        Abbiamo utilizato sensori di temperatura e umidità, sensori di umidità del suolo e relè per attivare pompe o ventole. I vari valori sono visualizzabili tramite un sito web che verrà publicato a breve.
+      </p>
+      <div class="image-placeholder">
+        <img src="ProgettoSerra.webp" alt="Serra con sensori Arduino">
+      </div>
+    </div>
+  </div>
+
+  <!-- Terzo div -->
+  <div class="section strip-light">
+    <div class="content">
+      <h2>Applicazioni Educative e Future</h2>
+      <p>
+        Questo progetto è perfetto per la scuola, perché unisce tecnologia, sostenibilità e innovazione agricola.
+        Può fornire ottimi spunti per mostrare un ambiente di lavoro in team che preveda più squadre, ciascuna aventi uno scopo e importante a modo suo; da ognuna dipendono tutte le altre.
+
+      </p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 - Progetto Serra Intelligente</p>
+  </footer>
+
+</body>
+</html>

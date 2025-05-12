@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tipologie di Impianti Fotovoltaici</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0f8ff;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(to right, #1565c0, #0d47a1);
+      padding: 20px;
+      color: white;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #0d47a1;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    nav li {
+      position: relative;
+    }
+
+    nav a {
+      display: block;
+      padding: 14px 20px;
+      color: white;
+      text-decoration: none;
+    }
+
+    nav li:hover {
+      background-color: #1976d2;
+    }
+
+    nav li ul {
+      display: none;
+      position: absolute;
+      background-color: #0d47a1;
+      min-width: 180px;
+      z-index: 1;
+      top: 100%;
+      left: 0;
+    }
+
+    nav li:hover>ul {
+      display: block;
+    }
+
+    .section {
+      padding: 40px 20px;
+    }
+
+    .strip-light {
+      background-color: #ffffff;
+    }
+
+    .strip-dark {
+      background-color: #e3f2fd;
+    }
+
+    .content {
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #1565c0;
+    }
+
+    .image-placeholder {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .image-placeholder img {
+      width: 100%;
+      max-width: 600px;
+      border-radius: 8px;
+    }
+
+    footer {
+      background-color: #0d47a1;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Tipologie di Impianti Fotovoltaici</h1>
+  </header>
+
+  <nav style="padding-left: 100px;">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li>
+        <a href="#">Sezioni ▼</a>
+        <ul>
+          <li><a href="tipologie.html">Tipologie di Impianti</a></li>
+          <li><a href="vantaggi.html">Vantaggi del Fotovoltaico</a></li>
+          <li><a href="futuro.html">Sviluppi Futuri</a></li>
+          <li><a href="serra.html">Serra</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="section strip-dark">
+    <div class="content">
+      <h1 style="text-align: center; font-size: 45px; color:#0d47a1">Distinzione per Connessione</h1>
+    </div>
+  </div>
+
+
+  <div class="section strip-light">
+    <div class="content">
+      <h2>Impianti Connessi alla Rete</h2>
+      <p>
+        Questi impianti sono collegati alla rete elettrica nazionale. L'energia prodotta può essere autoconsumata oppure
+        immessa in rete,
+        beneficiando dello scambio sul posto o incentivi.
+      </p>
+    </div>
+  </div>
+
+  <div class="section strip-dark">
+    <div class="content">
+      <h2>Impianti Isolati (Off-grid)</h2>
+      <p>
+        Non connessi alla rete elettrica, questi impianti sono dotati di batterie per immagazzinare l'energia. Ideali
+        per luoghi remoti,
+        rifugi, barche e camper.
+      </p>
+    </div>
+  </div>
+
+  <div class="section strip-light">
+    <div class="content">
+      <h2>Impianti Ibridi</h2>
+      <p>
+        Combinano la rete elettrica con batterie, per garantire energia continua anche in caso di blackout. Ottimizzano
+        il consumo e migliorano l'efficienza energetica.
+      </p>
+    </div>
+
+    <div class="section strip-dark">
+      <div class="content">
+        <h1 style="text-align: center; font-size: 45px; color:#0d47a1">Distinzione per Tipologie</h1>
+      </div>
+    </div>
+
+
+    <div class="section strip-light">
+      <div class="content">
+        <h2>Impianti Monocristallini</h2>
+        <p>
+          Offrono un'efficienza elevata (18-22%) e una lunga durata, ma sono più costosi. Presentano un aspetto uniforme e scuro.
+        </p>
+        <div class="image-placeholder">
+          <img src="monocristallini.JPG" alt="Immagine pannello solare">
+      </div>
+      </div>
+      </div>
+
+      <div class="section strip-dark">
+        <div class="content">
+          <h2>Impianti Policristallini</h2>
+          <p>
+            Hanno un'efficienza leggermente inferiore (15-18%) ma sono meno costosi. Hanno un colore bluastro e un aspetto granulare.
+          </p>
+          <div class="image-placeholder">
+            <img src="policristallini.jpg" alt="Immagine pannello solare">
+        </div>
+        </div>
+      </div>
+
+      <div class="section strip-light">
+        <div class="content">
+          <h2>Impianti a film sottile</h2>
+          <p>
+            Meno efficienti (10-12%) ma più leggeri e flessibili. Adatti per superfici curve o mobili. Sono anche meno sensibili alle alte temperature.
+          </p>
+          <div class="image-placeholder">
+            <img src="a_film_sottile.jpg" alt="Immagine pannello solare">
+        </div>
+        </div>
+      </div>
+
+
+      <div class="section strip-dark">
+        <div class="content">
+          <h2>Pannelli bifacciali</h2>
+          <p>
+            In grado di assorbire luce da entrambi i lati, aumentando il rendimento fino al 30% rispetto ai pannelli convenzionali.
+          </p>
+          <div class="image-placeholder">
+            <img src="bifacciali.png" alt="Immagine pannello solare">
+        </div>
+        </div>
+      </div>
+
+    <div class="section strip-light">
+      <div class="content">
+        <h2>Componenti di un Impianto Fotovoltaico</h2>
+        <p>
+          • Inverter: converte la corrente continua prodotta in corrente alternata utilizzabile. <br>
+          • Batterie (opzionali): accumulano l'energia prodotta per l'utilizzo in momenti di bassa irradiazione. <br>
+          • Struttura di supporto: consente l’installazione su tetti o superfici piane. <br>
+          • Contatore bidirezionale: misura l’energia prodotta e quella immessa/reimmessa nella rete.
+        </p>
+      </div>
+    </div>
+
+
+  </div>
+
+  <footer>
+    <p>&copy; 2025 - Tipologie di Impianti Fotovoltaici</p>
+  </footer>
+
+</body>
+
+</html>
